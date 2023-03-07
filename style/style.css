@@ -1,0 +1,188 @@
+:root {
+  --hg: 35px;
+}
+
+body {
+  margin: 0;
+  background-color: firebrick;
+}
+body > div#topbar {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 35px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: linear-gradient(to bottom, #595959, #474747);
+  padding: 5px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body > div#topbar > button[data-item=i1] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i1]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i2] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i2]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i3] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i3]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i4] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i4]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i5] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i5]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i6] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i6]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i7] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i7]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i8] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i8]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i9] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i9]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#topbar > button[data-item=i10] {
+  min-width: 45px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid firebrick;
+  border-radius: 6px;
+}
+body > div#topbar > button[data-item=i10]:hover {
+  background-color: #dbdbdb;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+body > div#content {
+  position: absolute;
+  top: calc(var(--hg) + 10px);
+  left: 10px;
+}
+body > div#content p {
+  margin: 0px auto;
+}
+body > div#content p::-moz-selection {
+  background-color: #0078d7;
+  color: white;
+}
+body > div#content p::selection {
+  background-color: #0078d7;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

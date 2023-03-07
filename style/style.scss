@@ -1,0 +1,55 @@
+:root{
+    --hg: 35px;
+}
+body{
+    margin: 0;
+    background-color: firebrick;
+    >div#topbar{
+        $gray1: #595959;
+        $gray2: #474747;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 35px;
+        height: fit-content;
+        background: linear-gradient(to bottom,$gray1,$gray2);
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @for $i from 1 through 10 {
+            >button[data-item=i#{$i}]{
+                min-width: 45px;
+                width: fit-content;
+                height: 25px;
+                margin: auto;
+                background-color: white;
+                $bw: 2px;
+                border: $bw solid firebrick;
+                border-radius: $bw*3;
+                &:hover{
+                    background-color: #dbdbdb;
+                    color: white;
+                    text-shadow:
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+                }
+            }
+        }
+    }
+    >div#content{
+        position: absolute;
+        top: calc(var(--hg) + 10px);
+        left: 10px;
+        p{
+            margin: 0px auto;
+            &::selection{
+                background-color: #0078d7;
+                color: white;
+            }
+        }
+    }
+}
